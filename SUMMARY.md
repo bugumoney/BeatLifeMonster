@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [BeatLifeMonster](README.md)
 * [投资备忘录](投资备忘录/README.md)
 * [读书笔记](读书笔记/README.md)
     * [《笑傲股市》威廉·欧奈尔](读书笔记/《笑傲股市》威廉·欧奈尔.md)
