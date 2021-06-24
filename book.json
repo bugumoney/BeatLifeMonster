@@ -1,0 +1,18 @@
+﻿{
+    "title": "BeatLifeMonster",
+    "author": "ZhiMin.Duan",
+    "description": "",
+    "language": "zh-hans",
+    "gitbook": "",
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "plugins":[
+        "-lunr", 
+        "-search", 
+        "search-pro",        
+		"expandable-chapters",
+		"splitter",
+		"auto-scroll-table"
+	]
+}
