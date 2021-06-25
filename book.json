@@ -15,7 +15,8 @@
 		"auto-scroll-table",
         "back-to-top-button",
         "github",
-        "flexible-alerts"
+        "flexible-alerts",
+        "todo"
 	],
     "pluginsConfig": {
         "github": {
