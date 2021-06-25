@@ -6,3 +6,7 @@
 	padding: 2px 4px;
 	font-size: 90%;
 }
+
+table th {
+	background: #EEEEEE;
+}

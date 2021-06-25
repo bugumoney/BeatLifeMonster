@@ -11,8 +11,18 @@
         "-lunr", 
         "-search", 
         "search-pro",        
-		"expandable-chapters",
 		"splitter",
-		"auto-scroll-table"
-	]
+		"auto-scroll-table",
+        "back-to-top-button",
+        "github",
+        "flexible-alerts"
+	],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/zhiminduan1986"
+        },
+        "flexible-alerts": {
+            "style": "flat"
+        }
+    }
 }
