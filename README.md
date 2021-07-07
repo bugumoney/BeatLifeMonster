@@ -22,7 +22,7 @@
 |  6   | <span style="white-space:nowrap;">[主力资金净买入额排行(问财)](http://www.iwencai.com/unifiedwap/result?w=%E4%B8%BB%E5%8A%9B%E8%B5%84%E9%87%91%E5%87%80%E4%B9%B0%E5%85%A5%E9%A2%9D%E6%8E%92%E5%90%8D%20%E9%99%86%E8%82%A1%E9%80%9A%E5%87%80%E4%B9%B0%E5%85%A5%E9%A2%9D&querytype=&issugs)</span> | 主力资金净买入额排名、陆股通净买入额                         |
 |  7   | <span style="white-space:nowrap;">[北向资金持股市值排行(问财)](http://www.iwencai.com/unifiedwap/result?w=%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E5%B8%82%E5%80%BC%20%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E9%87%8F%20%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E5%8D%A0%E6%AF%94%E5%A4%A7%E4%BA%8E1%25%20%E6%B5%81%E9%80%9A%E5%B8%82%E5%80%BC%E5%A4%A7%E4%BA%8E500%E4%BA%BF%20%E8%BF%913%E5%B9%B4ROE%E5%A4%A7%E4%BA%8E10%25&querytype=&issugs)</span> | 陆股通持股市值、陆股通持股量、陆股通持股占比大于1%、流通市值大于500亿 |
 |  8   | [北向资金净买入排行](https://emrnweb.eastmoney.com/zljc/list?type=1) | 北向净买入额，近5日净买入，近20日净买入，近60日净买入        |
-|  9   | [A股市值榜](http://www.funddb.cn/super/info?id=2)            | 行业龙头、核心资产、陆股通重仓                               |
+|  9   | [股债利差估值表](https://danjuanapp.com/valuation-table/jiucai) | 影响股票的定价最主要的有三个因素：无风险利率、公司业绩、风险溢价 |
 |  10  | [上证指数波动分析](https://www.legulegu.com/stockdata/market-analysis-shanghai) | 上证指数走势量化结果：RF指标                                 |
 |  11  | [创业板指数波动分析](https://www.legulegu.com/stockdata/market-analysis-chuangye) | 创业板指数走势量化结果：RF指标                               |
 |  12  | [恐惧贪婪指数](http://www.funddb.cn/tool/fear)               | 指数波动:50ETF波动率<br>北上资金:陆股通累计买入净额<br>股价强度:创新高个股数量占比<br>升贴水率:沪深300股指期货升贴水<br>避险天堂:股债回报差<br>杠杆水平:融资买入占比 |
