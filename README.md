@@ -2,7 +2,7 @@
 
 这里仅仅记录了一些笔者认为互联网开发者进阶需要重点掌握的的知识点，比如Java基础底层原理、JVM、MySQL以及NoSQL等数据库原理、Linux服务器常用命令以及Shell编程等，如果你想更加全面深入地学习，可以参考[「Github技术进阶修炼项目」](#Github技术进阶修炼项目)列表。
 
-另外，也记录一些笔者生活以及投资中学习总结的有用知识点，比如[「投资常用指标」](#投资常用指标)，不过投资需要谨慎，仅供参考。
+另外，也记录一些笔者生活以及投资中学习总结的有用知识点，比如[「投资备忘录」](#投资备忘录)，不过投资需要谨慎，仅供参考。
 
 ## Github技术进阶修炼项目
 
@@ -20,11 +20,11 @@
 | 10   | [互联网公司 IT 技术面试高频题](https://doocs.gitee.io/coding-interview/#/) | 代码面试题集，包括剑指 Offer、编程之美等                     |
 | 11   | [LeetCode & Coding Interview Guide](https://doocs.github.io/leetcode/#/) | 包含 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》等题目的相关题解 |
 
-## 投资常用指标
+## 投资备忘录
 
 |  #   | 指标项 | 描述|
 | :--: | :---------------------------- | ---------- |
-|  1   | <span style="white-space:nowrap">[股债收益率之比与沪深指数](http://value500.com/ep.asp)</span> | 盈利收益率主要是比较盈利相对其股价的表现                     |
+|  1   | [股债收益率之比与沪深指数](http://value500.com/ep.asp) | 盈利收益率主要是比较盈利相对其股价的表现                     |
 |  2   | [股债利差估值表](https://danjuanapp.com/valuation-table/jiucai) | 影响股票的定价最主要的有三个因素：无风险利率、公司业绩、风险溢价 |
 |  3   | [板块个股资金流向](https://emdatah5.eastmoney.com/dc/zjlx/index) | 大盘主力实时资金流向图，板块主力资金流向排行，个股主力资金流向排行 |
 |  4   | [北向资金](https://emrnweb.eastmoney.com/hsgt/home)        | 北向资金成交净买额走势图，北向资金流入走势图                 |
