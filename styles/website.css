@@ -11,3 +11,9 @@
 table th {
 	background: #EEEEEE;
 }
+
+/** 图片居中 **/
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}

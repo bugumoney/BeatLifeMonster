@@ -1,3 +1,5 @@
+# JVM内存配置参数
+
 >  jvm setting的参数确实比较多（Oracle官网[Java HotSpot VM Options](https://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html)），但是作为一名java开发者，那几个最常用最基本的参数设置和意义一定要死记和理解。这里推荐一个网站http://jvmmemory.com/在上面你可以方便的设置jvm的参数（当然这个网站上也是有些错误的，最可靠的还是去查下Oracle的文档）。 
 
 `Notice`:这里我们默认以Linux JAVA8 hotspot环境为例，其Oracle官网[Java Platform, Standard Edition Tools Reference](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html)（这里面有详细参数配置说明）。
@@ -70,7 +72,7 @@
 - 设置老年代和年轻代的比例。比如：-XX:NewRatio=8 表示`老年代内存:年轻代内存=8:1 => 老年代占堆内存的8/9;年轻代占堆内存的1/9`。
 - 默认值：2 。
 
-#### -XX:SurvivorRatio=32
+#### -XX:SurvivorRatio=8
 
 - 设置新生代和存活区的比例（这里需要注意的是存活区指的是其中一个）。比如：-XX:SurvivorRatio=8 表示`存活区：新生代=1：8 =》新生代占年轻代的8/10,每个存活区各占年轻代的1/10`。
 - 默认值：8 。

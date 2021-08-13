@@ -1,35 +1,8 @@
-# BeatLifeMonster
+<img src="assets/slogan.png#center" alt="slogan" style="zoom:45%;" />
+
 这里仅仅记录了一些笔者认为互联网开发者进阶需要重点掌握的的知识点，比如Java基础底层原理、JVM、MySQL以及NoSQL等数据库原理、Linux服务器常用命令以及Shell编程等，如果你想更加全面深入地学习，可以参考[「Github技术进阶修炼项目」](#Github技术进阶修炼项目)列表。
 
 另外，也记录一些笔者生活以及投资中学习总结的有用知识点，比如[「投资常用指标」](#投资常用指标)，不过投资需要谨慎，仅供参考。
-
-## 清单
-* [投资备忘录](docs/投资备忘录/README.md)
-    * [常用指标](docs/投资备忘录/README.md)
-* [读书笔记](docs/读书笔记/README.md)
-    * [读书清单](docs/读书笔记/读书清单.md)
-    * [《人月神话》](docs/读书笔记/《人月神话》.md)
-    * [《知乎周刊：从存钱到财务自由》](docs/读书笔记/《知乎周刊：从存钱罐到财务自由》.md)
-    * [《富爸爸穷爸爸》](docs/读书笔记/《富爸爸穷爸爸》.md)
-    * [《笑傲股市》威廉·欧奈尔](docs/读书笔记/《笑傲股市》威廉·欧奈尔.md)
-    * [《股票魔法师I——纵横天下股市的奥秘》](docs/读书笔记/《股票魔法师I——纵横天下股市的奥秘》.md)
-    * [《股票魔法师II——像冠军一样思考和交易》](docs/读书笔记/《股票魔法师II——像冠军一样思考和交易》.md)
-    * [《克罗谈期货交易策略》（美）斯坦利·克罗](docs/读书笔记/《克罗谈期货交易策略》.md)
-* [Java](docs/Java/README.md)
-    * [JVM性能调优工具](docs/Java/JVM性能调优工具.md)
-    * [JVM内存配置参数](docs/Java/JVM内存配置参数.md)
-    * [JVM性能调优实践](docs/Java/JVM性能调优实践.md)
-* [数据库](docs/数据库/README.md)
-    * [MySQL高性能优化技巧实践](docs/数据库/MySQL高性能优化技巧实践.md)
-    * [MongoDB日常操作](docs/数据库/MongoDB日常操作.md)
-* [分布式](分布式/README.md)
-    * 待完善
-* [Linux](docs/Linux/README.md)
-    * [一文掌握Linux性能分析之IO篇](docs/Linux/一文掌握Linux性能分析之IO篇.md)
-* [常用框架](docs/常用框架/README.md)
-    * SpringBoot
-    * SpringCloud 
-    * 待完善
 
 ## 投资常用指标
 
@@ -71,4 +44,4 @@
 
 目前支持以下站点访问：
 
-- GitHub Pages: https://zhiminduan1986.github.io/BeatLifeMonster
+- GitHub Pages: https://bugumoney.github.io/BeatLifeMonster
