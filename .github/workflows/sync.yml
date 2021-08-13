@@ -1,0 +1,26 @@
+name: Sync
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.repository == 'zhiminduan1986/BeatLifeMonster'
+    steps:
+    - name: Sync to Gitee
+      uses: wearerequired/git-mirror-action@master
+      env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+      with:
+          source-repo: git@github.com:zhiminduan1986/BeatLifeMonster.git
+          destination-repo: git@gitee.com:zm528/BeatLifeMonster.git
+
+    - name: Build Gitee Pages
+      uses: zm528/gitee-pages-action@main
+      with:
+          gitee-username: zhiminduan1986@hotmail.com
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          gitee-repo: zm528/BeatLifeMonster
+          branch: main
