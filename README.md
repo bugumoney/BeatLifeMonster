@@ -1,32 +1,74 @@
-# 投资备忘录
+# BeatLifeMonster
+这里仅仅记录了一些笔者认为互联网开发者进阶需要重点掌握的的知识点，比如Java基础底层原理、JVM、MySQL以及NoSQL等数据库原理、Linux服务器常用命令以及Shell编程等，如果你想更加全面深入地学习，可以参考[「Github技术进阶修炼项目」](#Github技术进阶修炼项目)列表。
 
-`要顺着大趋势去做；要控制你的亏损，同时让利润越滚越大；交易时必须用最务实的态度和严守纪律的精神；`
+另外，也记录一些笔者生活以及投资中学习总结的有用知识点，比如[「投资常用指标」](#投资常用指标)，不过投资需要谨慎，仅供参考。
 
-`让利润自行滋长，别担心浮动利润。该担心的是如何把损失降到最低；`
+## 清单
+* [投资备忘录](docs/投资备忘录/README.md)
+    * [常用指标](docs/投资备忘录/README.md)
+* [读书笔记](docs/读书笔记/README.md)
+    * [读书清单](docs/读书笔记/读书清单.md)
+    * [《人月神话》](docs/读书笔记/《人月神话》.md)
+    * [《知乎周刊：从存钱到财务自由》](docs/读书笔记/《知乎周刊：从存钱罐到财务自由》.md)
+    * [《富爸爸穷爸爸》](docs/读书笔记/《富爸爸穷爸爸》.md)
+    * [《笑傲股市》威廉·欧奈尔](docs/读书笔记/《笑傲股市》威廉·欧奈尔.md)
+    * [《股票魔法师I——纵横天下股市的奥秘》](docs/读书笔记/《股票魔法师I——纵横天下股市的奥秘》.md)
+    * [《股票魔法师II——像冠军一样思考和交易》](docs/读书笔记/《股票魔法师II——像冠军一样思考和交易》.md)
+    * [《克罗谈期货交易策略》（美）斯坦利·克罗](docs/读书笔记/《克罗谈期货交易策略》.md)
+* [Java](docs/Java/README.md)
+    * [JVM性能调优工具](docs/Java/JVM性能调优工具.md)
+    * [JVM内存配置参数](docs/Java/JVM内存配置参数.md)
+    * [JVM性能调优实践](docs/Java/JVM性能调优实践.md)
+* [数据库](docs/数据库/README.md)
+    * [MySQL高性能优化技巧实践](docs/数据库/MySQL高性能优化技巧实践.md)
+    * [MongoDB日常操作](docs/数据库/MongoDB日常操作.md)
+* [分布式](分布式/README.md)
+    * 待完善
+* [Linux](docs/Linux/README.md)
+    * [一文掌握Linux性能分析之IO篇](docs/Linux/一文掌握Linux性能分析之IO篇.md)
+* [常用框架](docs/常用框架/README.md)
+    * SpringBoot
+    * SpringCloud 
+    * 待完善
 
-`任何交易，我都不肯让损失超过本金的8%；`
-
-`单只股票资金控制在总资金的10%，最高上限为20%；`
-
-`只操作自己熟悉股性的票，就盯着自选股里那几只熟悉的股票跟踪趋势反复波段操作；`
-
-`寻找股价上升趋势中不容易跌破的均线，类似于10周均线的神奇支撑线，一般是20日/10周均线；`
+## 投资常用指标
 
 |  #   | 指标项 | 描述|
 | :--: | :---------------------------- | ---------- |
-|  1   | [股债收益率之比与沪深指数](http://value500.com/ep.asp) | 盈利收益率主要是比较盈利相对其股价的表现                     |
-|  2   | [实时主力净流入排行](https://emrnweb.eastmoney.com/zljc/list?needTime=&type=0) | 主力净买入，3日净流入，5日净流入                             |
-|  3   | [资金流向](https://emdatah5.eastmoney.com/dc/zjlx/index)     | 大盘主力实时资金流向图，板块主力资金流向排行，个股主力资金流向排行 |
-|  4   | [北向资金](https://emrnweb.eastmoney.com/hsgt/home)          | 北向资金成交净买额走势图，北向资金流入走势图                 |
+|  1   | <span style="white-space:nowrap">[股债收益率之比与沪深指数](http://value500.com/ep.asp)</span> | 盈利收益率主要是比较盈利相对其股价的表现                     |
+|  2   | [股债利差估值表](https://danjuanapp.com/valuation-table/jiucai) | 影响股票的定价最主要的有三个因素：无风险利率、公司业绩、风险溢价 |
+|  3   | [板块个股资金流向](https://emdatah5.eastmoney.com/dc/zjlx/index) | 大盘主力实时资金流向图，板块主力资金流向排行，个股主力资金流向排行 |
+|  4   | [北向资金](https://emrnweb.eastmoney.com/hsgt/home)        | 北向资金成交净买额走势图，北向资金流入走势图                 |
 |  5   | [盘面解析](https://emdatah5.eastmoney.com/dc/nxfxb/index)    | 涨跌统计，强势追踪，市场表现(蓝筹股/创业板)，沪深港通        |
-|  6   | <span style="white-space:nowrap;">[主力资金净买入额排行(问财)](http://www.iwencai.com/unifiedwap/result?w=%E4%B8%BB%E5%8A%9B%E8%B5%84%E9%87%91%E5%87%80%E4%B9%B0%E5%85%A5%E9%A2%9D%E6%8E%92%E5%90%8D%20%E9%99%86%E8%82%A1%E9%80%9A%E5%87%80%E4%B9%B0%E5%85%A5%E9%A2%9D&querytype=&issugs)</span> | 主力资金净买入额排名、陆股通净买入额                         |
-|  7   | <span style="white-space:nowrap;">[北向资金持股市值排行(问财)](http://www.iwencai.com/unifiedwap/result?w=%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E5%B8%82%E5%80%BC%20%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E9%87%8F%20%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E5%8D%A0%E6%AF%94%E5%A4%A7%E4%BA%8E1%25%20%E6%B5%81%E9%80%9A%E5%B8%82%E5%80%BC%E5%A4%A7%E4%BA%8E500%E4%BA%BF%20%E8%BF%913%E5%B9%B4ROE%E5%A4%A7%E4%BA%8E10%25&querytype=&issugs)</span> | 陆股通持股市值、陆股通持股量、陆股通持股占比大于1%、流通市值大于500亿 |
+|  6   | [主力资金净买入额排行](http://www.iwencai.com/unifiedwap/result?w=%E4%B8%BB%E5%8A%9B%E8%B5%84%E9%87%91%E5%87%80%E4%B9%B0%E5%85%A5%E9%A2%9D%E6%8E%92%E5%90%8D%20%E9%99%86%E8%82%A1%E9%80%9A%E5%87%80%E4%B9%B0%E5%85%A5%E9%A2%9D&querytype=&issugs) | 主力资金净买入额排名、陆股通净买入额                         |
+|  7   | [北向资金持股市值排行](http://www.iwencai.com/unifiedwap/result?w=%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E5%B8%82%E5%80%BC%20%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E9%87%8F%20%E9%99%86%E8%82%A1%E9%80%9A%E6%8C%81%E8%82%A1%E5%8D%A0%E6%AF%94%E5%A4%A7%E4%BA%8E1%25%20%E6%B5%81%E9%80%9A%E5%B8%82%E5%80%BC%E5%A4%A7%E4%BA%8E500%E4%BA%BF%20%E8%BF%913%E5%B9%B4ROE%E5%A4%A7%E4%BA%8E10%25&querytype=&issugs) | 陆股通持股市值、陆股通持股量、陆股通持股占比大于1%、流通市值大于500亿 |
 |  8   | [北向资金净买入排行](https://emrnweb.eastmoney.com/zljc/list?type=1) | 北向净买入额，近5日净买入，近20日净买入，近60日净买入        |
-|  9   | [股债利差估值表](https://danjuanapp.com/valuation-table/jiucai) | 影响股票的定价最主要的有三个因素：无风险利率、公司业绩、风险溢价 |
-|  10  | [上证指数波动分析](https://www.legulegu.com/stockdata/market-analysis-shanghai) | 上证指数走势量化结果：RF指标                                 |
-|  11  | [创业板指数波动分析](https://www.legulegu.com/stockdata/market-analysis-chuangye) | 创业板指数走势量化结果：RF指标                               |
-|  12  | [恐惧贪婪指数](http://www.funddb.cn/tool/fear)               | 指数波动:50ETF波动率<br>北上资金:陆股通累计买入净额<br>股价强度:创新高个股数量占比<br>升贴水率:沪深300股指期货升贴水<br>避险天堂:股债回报差<br>杠杆水平:融资买入占比 |
-|  13  | [创新高/新低的股票数量](https://www.legulegu.com/stockdata/high-low-statistics) | 统计创20/60/120日新高、创20/60/120日新低的个股的数量和占比   |
-|  14  | [5/20/60日均线统计](https://www.legulegu.com/stockdata/ma-statistics) | 统计收盘价高于5/20/60均线的股票的数量占比                    |
-|  15  | [A股平均股价](https://www.legulegu.com/stockdata/market-analysis-average-price) | 平均股价波段分析：平均股价直接反映了股票的平均涨跌与盘面的平均活跃度，避免了权重股拉升造成的二八现象（赚指数现象或指数不跌个股普跌的现象），由于无权重也就避免了权重股除权除息对指数的影响 |
+|  9   | [上证指数波动分析](https://www.legulegu.com/stockdata/market-analysis-shanghai) | 上证指数走势量化结果：RF指标                                 |
+|  10  | [创业板指数波动分析](https://www.legulegu.com/stockdata/market-analysis-chuangye) | 创业板指数走势量化结果：RF指标                               |
+|  11  | [恐惧贪婪指数](http://www.funddb.cn/tool/fear)               | 指数波动:50ETF波动率、北上资金:陆股通累计买入净额、股价强度:创新高个股数量占比、升贴水率:沪深300股指期货升贴水、避险天堂:股债回报差、杠杆水平:融资买入占比 |
+|  12  | [创新高/新低的股票数量](https://www.legulegu.com/stockdata/high-low-statistics) | 统计创20/60/120日新高、创20/60/120日新低的个股的数量和占比   |
+|  13  | [5/20/60日均线统计](https://www.legulegu.com/stockdata/ma-statistics) | 统计收盘价高于5/20/60均线的股票的数量占比                    |
+|  14  | [A股平均股价](https://www.legulegu.com/stockdata/market-analysis-average-price) | 平均股价波段分析：平均股价直接反映了股票的平均涨跌与盘面的平均活跃度，避免了权重股拉升造成的二八现象（赚指数现象或指数不跌个股普跌的现象），由于无权重也就避免了权重股除权除息对指数的影响 |
 
+## Github技术进阶修炼项目
+
+| #    | 项目                                                         | 描述                                                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1    | [互联网 Java 工程师进阶知识完全扫盲](https://doocs.github.io/advanced-java/#/) | 涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识   |
+| 2    | [Java虚拟机底层原理知识总结](https://doocs.github.io/jvm/#/) | 记录了一些需要重点掌握的 JVM 知识点，如果想更加全面地了解 JVM 底层原理，可以阅读《深入理解 Java 虚拟机——JVM 高级特性与最佳实践》全书 |
+| 3    | [JCSprout核心知识库](https://crossoverjie.top/JCSprout/#/) | 处于萌芽阶段的 Java 核心知识库                               |
+| 4    | [互联网公司常用框架源码赏析](https://doocs.github.io/source-code-hunter/#/) | 致力于从源码层面，剖析和挖掘互联网行业主流技术的底层实现原理，目前开放的有 Spring 全家桶、Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等 |
+| 5    | [Java工程师成神之路](https://hollischuang.github.io/toBeTopJavaer/#/menu) | Hollis，阿里巴巴技术专家，《程序员的三门课》联合作者，《Java工程师成神之路》系列文章作者 |
+| 6    | [程序员修炼之路](https://github.com/CodingDocs/programmer-advancement) | 程序员应该有的一些好习惯+面试必知事项！                      |
+| 7    | [技术面试必备的基础知识](http://www.cyc2018.xyz/)            | 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计 |
+| 8    | [深入浅出 Java 多线程](https://redspider.gitbook.io/concurrent/) | RedSpider社区成员原创与维护的Java多线程系列文章              |
+| 9    | [JavaGuide核心知识库](https://snailclimb.gitee.io/javaguide/#/) | 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识 |
+| 10   | [互联网公司 IT 技术面试高频题](https://doocs.gitee.io/coding-interview/#/) | 代码面试题集，包括剑指 Offer、编程之美等                     |
+| 11   | [LeetCode & Coding Interview Guide](https://doocs.github.io/leetcode/#/) | 包含 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》等题目的相关题解 |
+
+## 站点
+本项目基于 [Docsify](https://docsify.js.org) 进行构建，并使用开源小工具 [Gitee Pages Actions](https://github.com/yanglbme/gitee-pages-action) 实现站点的自动部署更新。
+
+目前支持以下站点访问：
+
+- GitHub Pages: https://zhiminduan1986.github.io/BeatLifeMonster

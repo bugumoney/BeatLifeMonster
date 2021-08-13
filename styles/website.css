@@ -5,6 +5,7 @@
 	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 	padding: 2px 4px;
 	font-size: 90%;
+	font-weight: normal !important;
 }
 
 table th {
