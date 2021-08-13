@@ -8,6 +8,10 @@
 	font-weight: normal !important;
 }
 
+.markdown-section a {
+    font-weight: normal !important;
+}
+
 table th {
 	background: #EEEEEE;
 }
