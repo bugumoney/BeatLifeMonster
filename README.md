@@ -67,7 +67,7 @@
 | 11   | [LeetCode & Coding Interview Guide](https://doocs.github.io/leetcode/#/) | 包含 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》等题目的相关题解 |
 
 ## 站点
-本项目基于 [Docsify](https://docsify.js.org) 进行构建，并使用开源小工具 [Gitee Pages Actions](https://github.com/yanglbme/gitee-pages-action) 实现站点的自动部署更新。
+本项目基于 [Docsify](https://docsify.js.org) 进行构建，通过[Github Pages](https://github.com/)实现站点的自动部署更新。
 
 目前支持以下站点访问：
 
