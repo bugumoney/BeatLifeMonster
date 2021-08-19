@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>漫漫人生路：BeatLifeMonster</title>
+  <title>BeatLifeMonster</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="keywords" content="doc,docs,doocs,documentation,github,jvm,java,mysql,投资" />
-  <meta name="description" content="漫漫人生路：BeatLifeMonster，项目维护者：ZhiMin.Duan" />
+  <meta name="description" content="BeatLifeMonster，项目维护者：ZhiMin.Duan" />
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
@@ -19,7 +19,7 @@
       repo: "bugumoney/BeatLifeMonster",
       maxLevel: 3,
       auto2top: true,
-      loadSidebar: "docs/README.md",
+      loadSidebar: "docs/sidebar.md",
       search: ["/"],
       pagination: {
         previousText: "上一章节",
@@ -40,6 +40,13 @@
           highlightColor: '#e96900',
         }
       },
+      scrollToTop: {
+        auto: true,
+        text: 'Top',
+        right: 15,
+        bottom: 15,
+        offset: 500
+      },      
       plugins: [
         function (hook, vm) {
           //config plugins
@@ -59,6 +66,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>  
 </script>
 </body>
 </html>
