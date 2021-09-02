@@ -14,6 +14,7 @@
   * [Java进阶](docs/Java/README.md)
       * [JVM性能调优工具](docs/Java/JVM性能调优工具.md)
       * [JVM内存配置参数](docs/Java/JVM内存配置参数.md)
+      * [JVM GC日志参数配置](docs/Java/JVMGC日志参数配置.md)      
       * [JVM性能调优实践](docs/Java/JVM性能调优实践.md)
       * [SpringBoot](docs/Java/SpringBoot.md)
       * [SpringCloud](docs/Java/SpringCloud.md)
