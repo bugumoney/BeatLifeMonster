@@ -12,6 +12,15 @@
     font-weight: normal !important;
 }
 
+.markdown-section blockquote {
+    color: #aaaaaa !important;
+}
+
+.markdown-section blockquote p {
+    font-weight: normal !important;
+    font-size: 0.9rem !important;
+}
+
 table th {
 	background: #EEEEEE;
 }
