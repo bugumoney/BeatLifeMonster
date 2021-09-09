@@ -12,6 +12,10 @@
     font-weight: normal !important;
 }
 
+.markdown-section pre>code.lang-sql {
+	white-space: break-spaces !important;
+}
+
 .markdown-section blockquote {
     color: #aaaaaa !important;
 }
@@ -19,6 +23,17 @@
 .markdown-section blockquote p {
     font-weight: normal !important;
     font-size: 0.9rem !important;
+}
+
+.page_toc ul a {
+	font-size: 0.9rem !important;
+    text-decoration: none !important;
+}
+
+.page_toc .active {
+	border-left: none !important;
+	padding-left: 0 !important;
+	font-weight: bold;
 }
 
 table th {
