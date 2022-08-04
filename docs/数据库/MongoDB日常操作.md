@@ -47,5 +47,11 @@ db.killOp("opid");
 
 //查看客户端连接数，按客户端ip分组汇总
 netstat -anp | grep 27017 | awk '{print $5}' |awk -F: '{print $1}' | sort | uniq -c | sort - rn | head -30
+
+//按条件导出指定集合的数据
+mongoexport -h localhost --port 27017 -u zlfund --db fund --collection simu_his_nav_list -q '{"inner_code":"HF00D30034"}' -o /home/public/simu_his_nav_list_D30034.json
+
+//导入数据
+mongoimport --db fund --collection simu_his_nav_list --file /home/zlfund/simu_his_nav_list_D30034.json --batchSize 100 --port 27017 --type json
 ```
 
